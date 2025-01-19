@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O S A T</title>
+</head>
+<body>
+    <!-- Task 1 -->
+    <form action="/submit" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required> <br>
+        <button type="submit">Submit</button>
+        <textarea name="message" id="message" cols="10" rows="10"></textarea> <br>
+    <!-- Task 2 -->
+    <label for="country">Страны:</label>
+    <select id="country" name="country" required>
+        <option value="">Выбирай свой любимый страна</option>
+        <option value="us">США</option>
+        <option value="ru">Россия</option>
+        <option value="kz">Казахстан</option>
+        <option value="kr">Корея</option>
+    </select> <br>
+    <button type="submit">Submit</button> <br>
+    <button type="reset">Reset</button>
+    <!-- Task 3 -->
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Логин информация</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br>
+            
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+        
+        <br>
+        
+        <fieldset>
+            <legend>Выбор </legend>
+            <label for="country">Страна :</label>
+            <select id="country" name="country" required>
+                <option value="">Выбери страну </option>
+                <option value="us">США </option>
+                <option value="ru">Россия</option>
+                <option value="kz">Казахстан </option>
+                <option value="kr">Корея </option>
+            </select>
+        </fieldset>
+        
+        <br>
+        
+        <button type="submit">Отправить </button>
+        <button type="reset">Сбросить</button>
+    </form>
+</body>
+</html>
